@@ -4,6 +4,7 @@ print("########################################################\n")
 
 name = str(input("Please, insert the name of the employee: "))
 department = int(input("Please, insert the ID of the department.\n Use 1 for Customer Support\n Use 2 for Logistics\n Use 3 for Management \nPlease, introduce your choice: "))
+
 seniority = float(input("Please, insert the seniority in years: "))
 
 if department == 1:
@@ -48,7 +49,7 @@ elif department == 3:
         else:
             print("\nThe employee", name,"has 30 days of vacations.")
 
-else:
+else :
     print("\nThe department ID is invalid. Please, try again.")
 
 print("\nThank you for using this software.\n")
