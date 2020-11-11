@@ -1,4 +1,4 @@
-# Notas video #3 - Sintaxis basica
+# Notas video #3 - Sintaxis básica
 
 ```
 print("Hola Mundo") # Instruccion
@@ -12,7 +12,7 @@ print("hola mundo"); print("adios mundo cruel")
 
 * Comentarios con "#"
 
-* "\" salto de linea en interprete
+* <code>"\"</code> salto de linea en interprete
 
 ```
 mi_nombre="mi nombre es nacho"
