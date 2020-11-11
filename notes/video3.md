@@ -19,7 +19,7 @@ mi_nombre="mi nombre es nacho"
 print(mi_nombre)
 ```
 
-* identanción
+* indentanción
 
 ```
 a=0
