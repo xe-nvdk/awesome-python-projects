@@ -15,7 +15,9 @@ Tipos de datos: Numericos: Enteros (int), coma flotante (float), complejos. Text
 Un espacio en memoria en el ordenador que puede cambiar durante la ejecucion del programa.
 
 ```
-type(variable)``` despues de cada variable, nos indica, que tipo de dato es.
+type(variable)
+``` 
+Despues de cada variable, nos indica, que tipo de dato es.
 
 * triple comillas (""") se usa para textos largos.
 
