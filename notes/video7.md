@@ -99,9 +99,47 @@ Traer el indice del elemento de la lista
 
 ```
 lista = ["juan", "maria", "pepe", "marta", "antonio"]
-
 lista.extend(["nacho", "sandra", "diego"])
-
 print(lista.index("nacho"))
 ```
 
+Comprobar si una lista se encuentra o no en una lista
+
+```
+lista = ["juan", "maria", "pepe", "marta", "antonio"]
+lista.extend(["nacho", "sandra", "diego"])
+print("pedro" in lista)
+```
+
+Eliminacion de elementos
+
+```
+lista = ["juan", "maria", "pepe", "marta", "antonio"]
+lista.extend(["nacho", "sandra", "diego"])
+lista.remove("maria")
+print(lista[:])
+```
+Elminacion del ultimo elemento agregado
+
+```
+lista = ["juan", "maria", "pepe", "marta", "antonio"]
+lista.extend(["nacho", "sandra", "diego"])
+lista.pop()
+print(lista[:])
+```
+
+Concatenar listas, usando variables.
+
+```
+lista = ["juan", "maria", "pepe", "marta", "antonio"]
+lista2 = ["diego", "nacho"]
+lista3 = lista+lista2
+print(lista3)
+```
+
+Operador multiplicacion de listas
+
+```
+lista = ["juan", "maria", "pepe", "marta", "antonio"] * 3
+print(lista[:])
+```
