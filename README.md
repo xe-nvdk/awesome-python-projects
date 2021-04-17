@@ -13,4 +13,4 @@ You going to find info about each project with their readme in each folder.
 |----------------------|-------------|
 | Average Calculator | Calculate the average of three numbers |
 | Calculator | Calculator using a single variable |
-| Vacations Day Calculator | Define vacations day according department and seniority |
+| Vacations Day Calculator | Calculate vacations days according department and seniority |
