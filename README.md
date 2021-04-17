@@ -16,5 +16,6 @@ You going to find info about each project with their readme in each folder.
 | [Check Agenda COVID](check-agenda-covid) | Automation with Selenium to fill forms and send the output to a chat in Telegram |
 | [Crowd Control](https://github.com/xe-nvdk/crowd-counter) | Crowd controls using Python, OpenCV and save the data in InfluxDB |
 | [EZCompose](https://github.com/xe-nvdk/ezcompose) | EZCompose help you to build docker-compose.yml files |
+| [Follow The Money](follow-the-money) | Tool to do expense tracking using InfluxDB as backend (Project no active) |
 | [InfluxDB Cloud Importer](https://github.com/xe-nvdk/influxdb-cloud-importer) | Scripting to import Dashboards, Tasks, Configurations and Data to InfluxDB Cloud from InfluxDB OSS |
 | [Vacations Day Calculator](vacactions-days-calculator) | Calculate vacations days according department and seniority |
