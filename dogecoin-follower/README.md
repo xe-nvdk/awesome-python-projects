@@ -1,6 +1,6 @@
 # Dogecoin follower - #ToTheMoon
 
-Hey, do you want to follow the price of Dogecoin every minute? you found the solution here. This Python script will pop up in you Windows desktop every 60 seconds with the current price and change in the 24 hours.
+Hey, do you want to follow the price of Dogecoin every minute? you found the solution here. This Python script will pop up in you Windows desktop every 60 seconds with the current price and change in the last 24 hours.
 
 ![image](https://user-images.githubusercontent.com/64545348/115163032-38d87c80-a07d-11eb-8ebc-158e848add6e.png)
 
