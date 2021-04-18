@@ -11,12 +11,12 @@ You going to find info about each project with their readme in each folder.
 
 | Project    | Description |
 |----------------------|-------------|
-| [Average Calculator](average-grades-calculator) | Calculate the average of three numbers |
-| [Calculator](one-variable-calculator) | Calculator using a single variable |
-| [Check Agenda COVID](check-agenda-covid) | Automation with Selenium to fill forms and send the output to a chat in Telegram |
-| [Crowd Control](https://github.com/xe-nvdk/crowd-counter) | Crowd controls using Python, OpenCV and save the data in InfluxDB |
-| [Dogecoin Follower](dogecoin-follower) | This script pop up to your Windows Desktop the price of Dogecoin every minute #ToTheMoon |
-| [EZCompose](https://github.com/xe-nvdk/ezcompose) | EZCompose help you to build docker-compose.yml files |
-| [Follow The Money](follow-the-money) | Tool to do expense tracking using InfluxDB as backend (Project no active) |
-| [InfluxDB Cloud Importer](https://github.com/xe-nvdk/influxdb-cloud-importer) | Scripting to import Dashboards, Tasks, Configurations and Data to InfluxDB Cloud from InfluxDB OSS |
-| [Vacations Day Calculator](vacactions-days-calculator) | Calculate vacations days according department and seniority |
+| [Average Calculator](average-grades-calculator) | Calculate the average of three numbers. |
+| [Calculator](one-variable-calculator) | Calculator using a single variable. |
+| [Check Agenda COVID](check-agenda-covid) | Automation with Selenium to fill forms and send the output to a chat in Telegram. |
+| [Crowd Control](https://github.com/xe-nvdk/crowd-counter) | Crowd controls using Python, OpenCV and save the data in InfluxDB. |
+| [Dogecoin Follower](dogecoin-follower) | Dodgecoin price every minute as notification in Windows and Telegram. #ToTheMoon. |
+| [EZCompose](https://github.com/xe-nvdk/ezcompose) | EZCompose help you to build docker-compose.yml files. |
+| [Follow The Money](follow-the-money) | Tool to do expense tracking using InfluxDB as backend (Project no active). |
+| [InfluxDB Cloud Importer](https://github.com/xe-nvdk/influxdb-cloud-importer) | Import Dashboards, Tasks, Configurations and Data to InfluxDB Cloud from InfluxDB OSS. |
+| [Vacations Day Calculator](vacactions-days-calculator) | Calculate vacations days according department and seniority. |
