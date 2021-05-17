@@ -2,6 +2,8 @@
   <img src="https://user-images.githubusercontent.com/64545348/114571921-6a9cae00-9c4d-11eb-8003-ab3b48cdf120.png" width="128" height="128"/>
 </p>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B34N5TU)
+
 # Awesome Python Projects
 ## Welcome
 I'm learning to code in Python and here, you can find a list of projects that I'm developing using this great code language.
