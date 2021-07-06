@@ -1,4 +1,4 @@
-# l'iwi help you to manage yours InfluxDB server
+# Hornero help you to manage yours InfluxDB servers.
 
 import os
 import discord
@@ -25,8 +25,6 @@ async def on_message(message):
 async def hello(ctx):
     response = str("Hi, I'm Hornero and I going to help you to manage your InfluxDB OSS and Cloud instances. Type '!help' to know about what I can do for you.")
     await ctx.send(response)
-
-    
 
 @bot.command(name='config', description='The config command allows you to list, create, delete and active configurations. Ex: !config create $name $influx_url $influx_token $influx_org.')
 async def config(ctx, operation, *args):
@@ -69,12 +67,45 @@ async def bucket(ctx, operation, *args):
         so = os.popen(cmd).read()
         await ctx.send(so)
 
+    elif operation == "update":
+        cmd = ('influx bucket update -i {} -n {} -r {}'.format(*args))
+        so = os.popen(cmd).read()
+        await ctx.send(so)
+
+    else:
+        await ctx.send("The parameter is not supported. I only suport 'ls', 'create', 'delete' and 'update'.")
+
 @bot.command(name='user')
 async def user(ctx, operation, *args):
     if operation == "ls":
         cmd = 'influx user ls'
         so = os.popen(cmd).read()
         await ctx.send(so)
+
+    elif operation == "create":
+        cmd = ('influx user create -n {} -p {}'.format(*args))
+        so = os.popen(cmd).read()
+        await ctx.send(so)
+
+    elif operation == "delete":
+        cmd = ('influx user delete -i {}'.format(*args))
+        so = os.popen(cmd).read()
+        await ctx.send(so)
+
+    elif operation == "update":
+        cmd = ('influx user update -i {} -n {}'.format(*args))
+        so = os.popen(cmd).read()
+        await ctx.send(so)
+
+    else:
+        await ctx.send("The parameter is not supported. I only suport 'ls', 'create', 'delete' and 'update'.")
+
+@bot.command(name='dashboards')
+async def user(ctx, *args):
+        cmd = 'influx dashboards'
+        so = os.popen(cmd).read()
+        await ctx.send(so)
+
 
 bot.run(TOKEN)
 client.run(TOKEN)
