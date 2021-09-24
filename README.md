@@ -20,6 +20,6 @@ You going to find info about each project with their readme in each folder.
 | [Dogecoin Follower](dogecoin-follower) | Dodgecoin price every minute as notification in Windows and Telegram. #ToTheMoon. |
 | [EZCompose](https://github.com/xe-nvdk/ezcompose) | EZCompose help you to build docker-compose.yml files. |
 | [Follow The Money](follow-the-money) | Tool to do expense tracking using InfluxDB as backend (Project no active). |
-| [Flux Weather](fluw-weather) | Scrape weather data for selected cities from OpenWeatherMap and send it to InfluxDB. |
+| [Flux Weather](flux-weather) | Scrape weather data for selected cities from OpenWeatherMap and send it to InfluxDB. |
 | [InfluxDB Cloud Importer](https://github.com/xe-nvdk/influxdb-cloud-importer) | Import Dashboards, Tasks, Configurations and Data to InfluxDB Cloud from InfluxDB OSS. |
 | [Vacations Day Calculator](vacactions-days-calculator) | Calculate vacations days according department and seniority. |
